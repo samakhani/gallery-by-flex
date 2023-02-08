@@ -7,13 +7,13 @@ body {
     background-color: #fff;
 }
 .header {
-    text-align: center;
-    color:#fff;
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 32px;
     background-color: blueviolet;
-    padding: 20px 20px;
-    border-bottom: 5px solid yellow;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-bottom: 3px solid yellow;
+    color:#fff;
 }
 .gallery {
     display: flex;
@@ -21,19 +21,20 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 30px;
     max-width: 1400px;
-    margin: 0  auto;
+    margin: 0 auto;
     padding: 20px 30px;
 }
 .gallery img {
     width: 100%;
-    max-width: 350px;
     height: 300px;
+    max-width: 350px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 16px;
 }
-.gallery::after{
+.gallery::after {
     content: "";
     width: 350px;
-  }
+}
+
