@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 body {
@@ -37,4 +37,42 @@ body {
     content: "";
     width: 350px;
 }
+ */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: antiquewhite;
+}
+.header{
+    font-size: 20px;
+    color:aqua;
+    background-color: rebeccapurple;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 20px 30px;
 
+}
+.container img{
+    border-radius: 16px;
+    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+}
+.container::after{
+    content: "";
+    max-width: 300px;
+}
